@@ -1,5 +1,5 @@
 # CREATE-DREAMS
-A wedstie for party balloons, decorations and party hire  business
+A website for party balloons, decorations and party hire  business
 
 ## Goal 
 
