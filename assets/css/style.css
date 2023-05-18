@@ -1,3 +1,8 @@
 body{
     font-family :Arial
 }
+#logo {
+    height: 200px;
+    widht: 10%;
+    background: url('../images/logo.jpeg') no-repeat center center 
+}
