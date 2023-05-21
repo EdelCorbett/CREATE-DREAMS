@@ -1,12 +1,17 @@
 body{
-    background: #30fcee;
+    
+    background: url('../images/pastel-balloons2.jpg') no-repeat center;
+    background-position: 75% 25%;
+    padding-right: 20px;
 }
-#logo {
-    float: left;
+
+   #logo {
     height: 300px;
     width: 100%;
-    background: url('../images/logo2.jpg') no-repeat center left
+    background: url('../images/logo2.jpg') no-repeat center ;
 }
+
+
 
 #menu li {
     float: right;
