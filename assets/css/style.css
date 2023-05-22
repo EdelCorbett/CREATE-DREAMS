@@ -5,9 +5,11 @@
 
 body{
 
-    
+    font-family: fuzzy bubbles , sans-serif;
+    font-weight: 400;
     background: url('../images/pastel-balloons2.jpg') no-repeat center;
     background-position: top center;
+    height:600px
     
 
 }
