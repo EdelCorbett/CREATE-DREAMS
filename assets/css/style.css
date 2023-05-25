@@ -58,8 +58,6 @@ img{
     height: 300px;
 }
 #photo{
-    clear: both;
-    float:left;
-    column-count: 3;
-    column-gap: 2;
+    
+
 }
