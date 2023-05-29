@@ -7,7 +7,9 @@ body{
 
     font-family: fuzzy bubbles , sans-serif;
     font-weight: 400;
+    font-size : 25px;
     background: url('../images/pastel-balloons2.jpg') no-repeat center;
+    Background-attachment: scroll;
     background-position: top center;
     height:600px
     
@@ -23,7 +25,7 @@ header {
     height: 290px;
 
 }
-.logo {
+.logo{
     width: 500px;
     height: 290px;
 }
@@ -39,16 +41,37 @@ header {
 #menu li {
     float: right;
     list-style: none;
+    font-family: Sriracha, sans-serif;
     margin: 30px;
     font-size:30px; 
 }
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    padding-left: 250px;
+
+}
 /* footer style*/
 
-footer{
-    height: 150px;
+footer {
+    background-color: aqua;
+    height: 15%;
+    width: 100%;
+    
 }
 .social-media {
     text-align: center;
+    position: relitive;
+    
+}
+.social-media >li {
+    display: flex;
+    justify-content: space-between;
+}
+.social-media i {
+    font-size:100%;
 }
 
 /*gallery page*/
@@ -56,8 +79,13 @@ footer{
 img{
     width: 300px;
     height: 300px;
+    border: solid 10px aqua;
 }
-#photo{
-    
+#photos{
+    padding-top: 40px;
+   
+
+}
+.formstyle {
 
 }
