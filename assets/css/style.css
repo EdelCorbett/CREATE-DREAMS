@@ -46,6 +46,10 @@ header {
     font-size:30px; 
 }
 
+.about-us{
+  Background-attachment: fixed;
+}
+
 div{
     display: flex;
     flex-wrap: wrap;
@@ -76,16 +80,38 @@ footer {
 
 /*gallery page*/
 
+
 img{
     width: 300px;
-    height: 300px;
-    border: solid 10px aqua;
+    height: 300px;    border: solid 15px aqua;
 }
-#photos{
-    padding-top: 40px;
-   
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    }
+
+
+figcaption{
+    font-size: 20px;
 
 }
-.formstyle {
 
+/* form style */
+
+.form-display{
+    padding:40px;
+    position: center;
 }
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:250px;
+    }
+
+    .map {
+        float: top right;
+    }
