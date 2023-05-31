@@ -6,15 +6,22 @@
 body{
 
     font-family: fuzzy bubbles , sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size : 25px;
     background: url('../images/pastel-balloons2.jpg') no-repeat center;
     Background-attachment: scroll;
     background-position: top center;
+    color: #8806ce;
     height:600px
-    
+    }
 
-}
+    .gallery-page{
+        background: #ffaafa  !important;
+    }
+
+    .contact-page{
+        background: aqua !important;
+    }
 
 header {
     background-color: aqua;
@@ -22,21 +29,20 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 290px;
+    height: 300px;
 
 }
 .logo{
-    width: 500px;
+    width: 600px;
     height: 290px;
 }
 
-   .logo {
-    background: url('../images/logo2.jpg') no-repeat center;
+.logo {
+    background: url('../images/logo4.png') no-repeat center;
     float: center;
     top: 0;
     left: 50%;
-   }
-
+}
 
 #menu li {
     float: right;
@@ -46,9 +52,9 @@ header {
     font-size:30px; 
 }
 
-.about-us{
+/*.about-us{
   Background-attachment: fixed;
-}
+}*/
 
 div{
     display: flex;
@@ -82,25 +88,32 @@ footer {
 
 
 img{
-    width: 300px;
-    height: 300px;    border: solid 15px aqua;
+    width: 350px;
+    height: 350px;   
+    border: solid 15px aqua;
 }
 
 .gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-    }
+    grid-template-columns:repeat(3 ,1fr) 
+}
 
-
-figcaption{
+    figcaption{
     font-size: 20px;
 
 }
 
 /* form style */
 
+.form-map{
+     font-size:40px;
+    
+     
+    padding: 60px;
+}
+
 .form-display{
+    float: right;
     padding:40px;
     position: center;
 }
