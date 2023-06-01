@@ -44,11 +44,17 @@ header {
     left: 50%;
 }
 .navbar{
+    display: inline, block;
+}
+.navbar a {
+    color:#8806ce;
+}
+.navbar >ul :hover {
     color: #ffaafa;
 }
 
 #menu li {
-    float: right;
+    display: inline;
     list-style: none;
     font-family: Sriracha, sans-serif;
     margin: 30px;
@@ -108,12 +114,9 @@ img{
 }
 
 /* form style */
-
-.form-map{
-     font-size:40px;
-    
-     
-    padding: 60px;
+h2 {
+    text-align: center;
+    font-size: 60px;
 }
 
 .form-feildset {
@@ -134,5 +137,5 @@ img{
 
     .form-map {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     }
