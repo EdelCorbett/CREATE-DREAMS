@@ -44,7 +44,7 @@ header {
     left: 50%;
 }
 .navbar{
-    display: inline, block;
+    display: inline;
 }
 .navbar a {
     color:#8806ce;
@@ -93,6 +93,9 @@ footer {
     margin: 0%;
     padding:5%;
 }
+.social-media >li :hover {
+    color:#ffaafa;
+}
 
 /*gallery page*/
 
@@ -119,12 +122,12 @@ h2 {
     font-size: 60px;
 }
 
-.form-feildset {
+/*.form-feildset {
     float: right;
     padding:40px;
     position: center;
 }
-
+*/
 .form-feildset {
     display: flex;
     flex-direction: column;
@@ -134,8 +137,23 @@ h2 {
 
     }
 
+    .submit-button {
+        background-color: #ffaafa;
+        border-color: #8806ce;
+        color: #8806ce;
+        border-radius: 50%;
+        width: 100px;
+        height:50px;
+        text-align: center;
+    }
+
 
     .form-map {
     display: flex;
     justify-content: space-evenly;
+    }
+
+
+    @media screen (max-width 600px){
+        
     }
