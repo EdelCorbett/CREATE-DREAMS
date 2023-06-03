@@ -1,7 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Sriracha&display=swap');
 
-
+*,
+*::before
+*::after{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+}
 
 body{
 
@@ -62,9 +68,6 @@ header {
  
 }
 
-/*.about-us{
-  Background-attachment: fixed;
-}*/
 
 .welome,.balloons,.teepee{
     display: flex;
@@ -74,17 +77,25 @@ header {
 
 }
 /* footer style*/
-
 footer {
     background-color: aqua;
     height: 30%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .social-media {
     text-align: center;
-    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    max-widht: 30rem;
 }
+
+
 .social-media >li {
     display: inline;
 }
@@ -121,13 +132,6 @@ h2 {
     text-align: center;
     font-size: 60px;
 }
-
-/*.form-feildset {
-    float: right;
-    padding:40px;
-    position: center;
-}
-*/
 .form-feildset {
     display: flex;
     flex-direction: column;
@@ -149,11 +153,6 @@ h2 {
 
 
     .form-map {
-    display: flex;
-    justify-content: space-evenly;
-    }
-
-
-    @media screen (max-width 600px){
-        
+        display: flex;
+        justify-content: space-evenly;
     }
