@@ -15,10 +15,10 @@ body{
     font-weight: 500;
     font-size : 25px;
     background: url('../images/pastel-balloons2.jpg') no-repeat center;
-    Background-attachment: scroll;
-    background-position: top center;
+    background-size: cover;
+    background-attachment: scroll;
+
     color: #8806ce;
-    height:600px
     }
 
     .gallery-page{
@@ -73,7 +73,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 800px;
-    padding-left: 250px;
 
 }
 /* footer style*/
@@ -109,6 +108,9 @@ footer {
 }
 
 /*gallery page*/
+.heading-hidden {
+    display: hidden;
+}
 
 
 img{
