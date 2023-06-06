@@ -82,7 +82,13 @@ header {
 h1{
     font-size: 70px;
 }
-
+.about-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .welcome,.balloons,.teepee{
     display: flex;
@@ -129,13 +135,14 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-  /* border: solid 10px aqua;*/
+
 }
 
 .gallery{
     display: grid;
-    grid-template-columns:repeat(3 ,1fr) 
+    grid-template-columns:repeat(auto-fit,minmax(15em, 1fr)) 
 }
+
 figure{
     width: 300px;
     height: 300px;
@@ -162,7 +169,7 @@ h2 {
 
     }
 
-    .submit-button {
+ .submit-button {
         background-color: #ffaafa;
         border-color: #8806ce;
         color: #8806ce;
