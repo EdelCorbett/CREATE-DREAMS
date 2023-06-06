@@ -30,25 +30,35 @@ body{
     }
 
 header {
-    background-color: aqua;
+   /* background-color: aqua;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 300px;
 
 }
-.logo{
-    width: 650px;
-    height: 290px;
+
+/* logo position */
+.logo-image{
+
+    width: 600px;
+    height: 200px;
+
+    position: relative;
+
+    
+    
 }
 
-.logo {
-    background: url('../images/logo4.png') no-repeat center;
+/*.logo {
+   background: url('../images/logo4.png') no-repeat center;
     float: center;
     top: 0;
     left: 50%;
-}
+}*/
+
+/* navigation bar style*/
+
 .navbar{
     display: inline;
 }
@@ -66,16 +76,22 @@ header {
     margin: 30px;
     font-size:30px;
  
+} 
+/* home page styling*/
+
+h1{
+    font-size: 70px;
 }
 
 
-.welome,.balloons,.teepee{
+.welcome,.balloons,.teepee{
     display: flex;
     flex-wrap: wrap;
     width: 800px;
 
 }
 /* footer style*/
+
 footer {
     background-color: aqua;
     height: 30%;
@@ -91,7 +107,7 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    max-widht: 30rem;
+    max-width: 50rem;
 }
 
 
@@ -108,26 +124,29 @@ footer {
 }
 
 /*gallery page*/
-.heading-hidden {
-    display: hidden;
-}
-
 
 img{
-    width: 350px;
-    height: 350px;   
-    border: solid 15px aqua;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  /* border: solid 10px aqua;*/
 }
 
 .gallery{
     display: grid;
     grid-template-columns:repeat(3 ,1fr) 
 }
+figure{
+    width: 300px;
+    height: 300px;
+    border: solid 10px aqua;
+}
 
-    figcaption{
+figcaption{
     font-size: 20px;
 
 }
+
 
 /* form style */
 h2 {
