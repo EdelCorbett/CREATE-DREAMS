@@ -8,6 +8,16 @@
     Padding: 0;
     box-sizing: border-box;
 }
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+     
 
 body{
 
@@ -17,20 +27,26 @@ body{
     background: url('../images/pastel-balloons2.jpg') no-repeat center;
     background-size: cover;
     background-attachment: scroll;
-
+    width: 100%;
     color: #8806ce;
     }
+
+    /* gallery page background color*/
 
     .gallery-page{
         background: #ffaafa  !important;
     }
 
+    /* contact page background color*/
+
     .contact-page{
         background: aqua !important;
     }
 
+    /* header styling*/
+
 header {
-   /* background-color: aqua;*/
+   background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,24 +54,14 @@ header {
 
 }
 
-/* logo position */
+    /* logo position */
+
 .logo-image{
 
     width: 600px;
-    height: 200px;
+    height: 250px;
 
-    position: relative;
-
-    
-    
 }
-
-/*.logo {
-   background: url('../images/logo4.png') no-repeat center;
-    float: center;
-    top: 0;
-    left: 50%;
-}*/
 
 /* navigation bar style*/
 
@@ -82,15 +88,16 @@ header {
 h1{
     font-size: 70px;
 }
-.about-us{
+.welcome,.balloons,.teepee {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 1em;
 }
 
-.welcome,.balloons,.teepee{
+.welcome,.balloons,.teepee {
     display: flex;
     flex-wrap: wrap;
     width: 800px;
@@ -105,6 +112,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    bottom: 0;
     
 }
 .social-media {
@@ -131,25 +140,25 @@ footer {
 
 /*gallery page*/
 
-img{
+img { 
     width: 100%;
     height: 100%;
     object-fit: cover;
 
 }
 
-.gallery{
+.gallery {
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(15em, 1fr)) 
 }
 
-figure{
+figure {
     width: 300px;
     height: 300px;
     border: solid 10px aqua;
 }
 
-figcaption{
+figcaption {
     font-size: 20px;
 
 }
