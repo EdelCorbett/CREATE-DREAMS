@@ -1,24 +1,29 @@
-# CREATE-DREAMS
-A website for party balloons, decorations and party hire  business
+![Create Dreams logo](images/logo4.png)
+# *Create Dream*
 
-## Goal 
+A website for Balloon decorations and party hire business so visitors to the website can veiw some of the decorations the business can create and the type of items the business has to hire.
+
+
+
+## Goal
 
 To display completed projects
 
-To be informative to visitors 
+To be informative to visitors
 
 To show the user of the type work the compant does
 
 make it easy for user to contact us and make enquiries
 
-
 ## User Storie
 
 As a user i want to be able to navigate the site easy
 
-As a user i want ti be able to fine some images of pass project 
+As a user i want ti be able to fine some images of pass project
 
-As a user i want to be able to find contact information 
+As a user i want to be able to find contact information
+
+As a user i want to be able to submit an enquirerytion 
 
 As a user i want to be able to submit an enquirery 
 
