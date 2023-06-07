@@ -1,6 +1,7 @@
 ![Create Dreams logo](assets/images/logo4.png)
 
-A website for party balloons, decorations and party hire business
+A website for a balloons decorations and party hire business, so customers can veiw the decorations the business can create and the items they have available to hire.
+
 
 ## Goal
 
@@ -9,7 +10,6 @@ To display completed projects
 To be informative to visitors
 
 To show the user of the type work the compant does
-
 make it easy for user to contact us and make enquiries
 
 ## User Storie
