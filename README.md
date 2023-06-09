@@ -66,6 +66,29 @@ A website for a balloons decorations and party hire business, so customers can v
    * It has a message box to be fill out to send enquiries.
    * it has a submit botton that leads to a response page.
 
+   ## Response page
+
+
+   ---
+
+   ## Technologies Used
+   - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) 
+   - [CSS](https://developer.mozilla.org/en-US/docs/Web/css)
+   - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) 
+   - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)
+   - [Balsamiq](https://balsamiq.com/)
+   - [GitHub](https://github.com/) 
+   - [Codeanywhere](https://codeanywhere.com/)
+
+---
+
+## Design
+
+### Layout
+* Three pages
+* Home page
+*
+
 
 
 
