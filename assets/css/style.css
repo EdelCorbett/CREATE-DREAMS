@@ -45,6 +45,7 @@ body{
         background: aqua !important;
     }
 
+     /* Header styling starts here */
 
     /* logo position */
 
@@ -54,90 +55,39 @@ body{
 
 }
 
-
-a {
-    color: #8806ce;
-}
-
-.header{
+.header {
     background-color: aqua;
     width: 100%;
     height: 250px;
-    z-index: 3;
-}
-.navbar ul{
-    margin:0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    background-color: #ffaafa;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.menu li a{
-    padding: 20px 20px;
+.menu li{
+    display: inline;
+    font-family: Sriracha, sans-serif;
+    font-size: 35px;
+    padding:20px;
+    color: #8806ce;
     text-decoration: none;
-   
 }
+.menu li a {
+    text-decoration: none;
+    color: #8806ce;
+    }
 
-.logo{
-    float:left;
-    width: 300px;
-}
 .navbar >ul :hover {
-    color: #ffaafa;
-}
-nav ul {
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-}
-.menu-icon {
-    border:1px solid #ffaafa;
-    padding:20px 20px;
-    position: relative;
-    float: right;
-    cursor: pointer;
-}
- .menu-icon .nav-icon{
-    background: #8806ce;
-    display: block;
-    height: 2px;
-    width: 18px;
-    position: relative;
-    transition: background,2s ease-out;
-}
-.menu-icon .nav-icon:before{
-   background: #8806ce;
-   content:'';
-   display:block;
-   height: 100%;
-   width:100%;
-   position: absolute;
-   transition: all .2s ease-out;
-   top:5px;
-}
- .menu-icon .nav-icon:after{
-    background: #8806ce;
-    content:'';
-    display:block;
-    height: 100%;
-    width:100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    top:-5px;
-}
-
-.menu-button{
-    display: none;
-}
-.menu-button:checked ~ nav{
-    max-height: 300px;
-}
+        color: #ffaafa;
+    }
 
 
 
 /* home page styling*/
+
+h1 {
+    font-size: 58px;
+}
 
 .welcome,.balloons,.teepee {
     
@@ -207,10 +157,12 @@ figure {
     width: 300px;
     height: 300px;
     border: solid 10px aqua;
+    margin-bottom: 30px;
 }
 
 figcaption {
     font-size: 20px;
+    
 
 }
 
@@ -245,34 +197,18 @@ h2 {
        justify-content: space-evenly;
     }
 
-    @media (min-width: 48em){
-       
-        .header li {
+    @media (max-width: 48em){
+       .header {
+            background-color: aqua;
+            width: 100%;
+            z-index: 3;
             display: flex;
-            justify-content: space-between;
             align-content: center;
-            display: inline;
-            list-style: none;
-            font-family: Sriracha, sans-serif;
-            margin: 30px;
-            font-size:30px;
-
+            flex-direction: column;
+            justify-content: center;
         }
+    
         
-        .header .menu{
-            clear: none;
-            float: right;
-            max-height: none;
-            background: none;
-            height:200px;
-            display: flex;
-            align-items: center;
-}
-        }
-        .menu-icon {
-            display: none;
-        }
-    }
+       
 
 
- 
