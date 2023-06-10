@@ -70,8 +70,8 @@ body{
     font-size: 35px;
     padding:20px;
     color: #8806ce;
-    text-decoration: none;
-}
+    text-decoration: 
+} 
 .menu li a {
     text-decoration: none;
     color: #8806ce;
@@ -107,7 +107,7 @@ h1 {
 /* footer style*/
 
 footer {
-    background-color: aqua;
+  background-color: aqua;
     height: 30%;
     width: 100%;
     display: flex;
@@ -208,7 +208,7 @@ h2 {
             justify-content: center;
         }
     
-        
+    }
        
 
 
