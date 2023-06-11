@@ -88,7 +88,7 @@ body{
 /* home page styling*/
 
 h1 {
-    font-size: 58px;
+    font-size: 55px;
 }
 
 .welcome,.balloons,.teepee {
@@ -163,6 +163,7 @@ figure {
 }
 
 figcaption {
+  padding-top:10px;
     font-size: 20px;
     
 
@@ -174,6 +175,8 @@ h2 {
     text-align: center;
     font-size: 60px;
 }
+
+/* Form feildset */
 .form-feildset {
     display: flex;
     flex-direction: column;
@@ -182,6 +185,7 @@ h2 {
     border-color: #8806ce;
 
     }
+/* Submit button */
 
  .submit-button {
         background-color: #ffaafa;
@@ -192,7 +196,7 @@ h2 {
         height:50px;
         text-align: center;
     }
-
+/* Location Map*/
 
    .form-map {
         display: flex;
@@ -210,16 +214,13 @@ h2 {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding-top: 50px;
+            
 
 
         }
-        .response-message{
 
 
-
-
-
-        }
         /*Media Queries start here*/
 
         @media (max-width: 780px){
@@ -264,13 +265,38 @@ h2 {
         }
 
         .menu li{
-            display:inline;
+            display: inline;
             font-size: 22px;
-            padding: 10px 5px;
-            width :320px;
+            padding: 10px 10px;
+        }
+        .welcome,.balloons,.teepee {
+            width: 500px;
+        }
+        h1, h2 {
+            font-size: 25px;
         }
     
         }
+
+        @media (max-width: 320px) {
+            .welcome ,.balloons ,.teepee{
+            width: 250px;
+            }
+
+
+/*.gallery {
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(5em, 1fr)) 
+}*/
+
+figure {
+    width: 200px;
+    height: 250px;
+    border: solid 10px aqua;
+    margin-bottom: 30px;
+}
+  }
+        
         
     
        
