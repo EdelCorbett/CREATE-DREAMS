@@ -124,9 +124,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 ### Color Pallette
 
-| ![#ffaafa](https://via.placeholder.com/70/ffaafa/000000?text=+ffaafa )   | `Pink` |
-| ![#0ffff](https://via.placeholder.com/70/00ffff/000000?text=+00ffff)   | `AQUA` |   
-| ![#8806ce](https://via.placeholder.com/70/8806ce/000000?text=+8806ce) |`Purple`  |
+![#ffaafa](https://via.placeholder.com/100/ffaafa/000000?text=+FFAAFA ) `PINK` ![#0ffff](https://via.placeholder.com/100/00ffff/000000?text=+00FFFF)  `AQUA`  ![#8806ce](https://via.placeholder.com/100/8806ce/000000?text=+8806CE) `Purple` 
  
  ### Fonts
  
