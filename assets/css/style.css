@@ -64,13 +64,13 @@ body{
     justify-content: space-between;
 }
 
-.menu li{
+.menu li {
     display: inline;
     font-family: Sriracha, sans-serif;
     font-size: 35px;
     padding:20px;
     color: #8806ce;
-    text-decoration: 
+    text-decoration: none;
 }
 
 .menu li a {
@@ -237,9 +237,6 @@ h2 {
             text-align: center;
             margin-bottom: 10px;
         }
-        .logo-image {
-        
-        }
 
         .navbar{
             background-color: aqua;
@@ -250,13 +247,12 @@ h2 {
             display:inline;
             font-size: 22px;
             padding: 10px 5px;
-            width :320px;s
+            width :320px;
         }
-        footer{
-            min-width: 320px;
+    
         }
         
-    }
+    
        
 
 

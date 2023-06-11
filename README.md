@@ -1,6 +1,6 @@
 ![Create Dreams logo](assets/images/logo4.png)
 
-A website for a balloons decorations and party hire business, so customers can veiw the decorations the business can create and the items they have available to hire.
+Create Dreams is a website for a balloon decorations and party hire business. So potential customers can veiw the decorations the business can create and the items they have available to hire.
 
 
 ---
@@ -79,15 +79,18 @@ A website for a balloons decorations and party hire business, so customers can v
    - [Balsamiq](https://balsamiq.com/)
    - [GitHub](https://github.com/) 
    - [Codeanywhere](https://codeanywhere.com/)
+   - [Canva](https://www.canva.com/)
 
 ---
 
 ## Design
 
-### Layout
-* Three pages
+#### Three pages
 * Home page
-*
+* Gallery page
+* Contact form and Location page
+
+### Color Pallette
 
 
 
