@@ -68,6 +68,10 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
    ## Response page
 
+   * Visitors are directed to response page after submitting contact form.
+   * It displays a thank you message and informs the user that they will be contacted soon.
+   * It then directs the user to the Home page. 
+
 
    ---
 
@@ -85,16 +89,31 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 ## Design
 
-#### Three pages
-* Home page
-* Gallery page
-* Contact form and Location page
+### Logo
+
+* Logo was created using Canva.
+* The design was choosen as identifies the business.
+* Colors where aligns with the business image. 
+
 
 ### Color Pallette
-![#ffaafa](https://via.placeholder.com/70/ffaafa/000000?text=+) `#ffaafa`
-![#00ffff](https://via.placeholder.com/70/00ffff/000000?text=+) `#00ffff` ![#8806ce](https://via.placeholder.com/70/8806ce/000000?text=+) `#8806ce`
+
+| ![#ffaafa](https://via.placeholder.com/70/ffaafa/000000?text=+ffaafa )   | `Pink` |
+| ![#0ffff](https://via.placeholder.com/70/00ffff/000000?text=+00ffff)   | `AQUA` |   
+| ![#8806ce](https://via.placeholder.com/70/8806ce/000000?text=+8806ce) |`Purple`  |
+ 
+ ### Fonts
+ 
+ * Fuzzy bubbles was the main font used on the website as it work well with the logo. 
+
+ ![Fuzzy Bubbles font](documentation/fuzzy-bubbles.png)
 
 
+ *  Sriracha was use on the navigation menu as it balanced well with font used in main body and logo.
+
+ ![Sriracha font](documentation/sriracha.png)
 
 
--![image bg](documentation/create%20dreams.pdf)
+## Wireframe
+
+- ![Wireframes](documentation/create%20dreams.pdf)
