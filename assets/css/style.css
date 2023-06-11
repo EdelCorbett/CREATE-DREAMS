@@ -267,34 +267,70 @@ h2 {
         .menu li{
             display: inline;
             font-size: 22px;
-            padding: 10px 10px;
+            padding: 20px 30px;
         }
+
         .welcome,.balloons,.teepee {
             width: 500px;
         }
+
         h1, h2 {
             font-size: 25px;
         }
-    
+        .gallery {
+            display: flex;
+            flex-direction: column;
+
+         }
+
+        figure {
+            width: 250px;
+            height: 250px;
+            border: solid 10px aqua;
+            margin-bottom: 30px;
+        }
+
+        figcaption {
+            font-size: 15px;
+        }
+
+        .map, .form-feildset {
+            margin :20px 20px;
+        }
         }
 
         @media (max-width: 320px) {
+
+            .menu li {
+                padding:  10px;
+            }
+            
             .welcome ,.balloons ,.teepee{
             width: 250px;
             }
+            
+            figure {
+            width: 200px;
+            height: 250px;
+            border: solid 10px aqua;
+            margin-bottom: 30px;
+        }
+
+        .form-map {
+            display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           margin: 20px;
+           font-size: 18px;
+            }
 
 
-/*.gallery {
-    display: grid;
-    grid-template-columns:repeat(auto-fit,minmax(5em, 1fr)) 
-}*/
+            .map,.form-feildset{
+                padding:20px 20px;
+                margin: 20px 20px;
+            }
 
-figure {
-    width: 200px;
-    height: 250px;
-    border: solid 10px aqua;
-    margin-bottom: 30px;
-}
+
   }
         
         
