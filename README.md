@@ -91,8 +91,10 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 * Contact form and Location page
 
 ### Color Pallette
+![#ffaafa](https://via.placeholder.com/70/ffaafa/000000?text=+) `#ffaafa`
+![#00ffff](https://via.placeholder.com/70/00ffff/000000?text=+) `#00ffff` ![#8806ce](https://via.placeholder.com/70/8806ce/000000?text=+) `#8806ce`
 
 
 
 
-![image bg](documentation/create%20dreams.pdf)
+-![image bg](documentation/create%20dreams.pdf)
