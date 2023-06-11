@@ -39,6 +39,30 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 ## Features
 
+### Navbar
+
+  ####  Links
+
+   * HOME - takes the users Main page where users can find out information on the business.
+
+   * Gallery - takes the users to a gallery of images of the business recent work.
+   
+   * Contact Us - takes the users to the contact form page where a form can be filled out so they can contact the business.
+
+   ### Navigation is responsive
+
+   * On large screens the logo floats left and the navigation bar float to right inline.
+
+   ![Navbar](documentation/navbar.png)
+
+   * On small screens the navigation bar float under the logo to center of screen.
+
+   ![navbar-small](documentation/navbar-small.jpeg)
+
+
+
+
+
 ---
 
  ## Home Page
@@ -49,6 +73,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
   * Breif introduction to Business.
   * Informs visitors of the products the business has to offer.
   * Invites visitors to view gallery page.
+  * A Background Image of a bunch of pastel ballons is display behind the text which complements the color palette.   
 
  ## Gallery Page
 
@@ -94,6 +119,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 * Logo was created using Canva.
 * The design was choosen as identifies the business.
 * Colors where aligns with the business image. 
+* Logo when click leads back to home page.
 
 
 ### Color Pallette
@@ -104,7 +130,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
  
  ### Fonts
  
- * Fuzzy bubbles was the main font used on the website as it work well with the logo. 
+ * Fuzzy bubbles was the main font used on the website as it work well with font in the logo. 
 
  ![Fuzzy Bubbles font](documentation/fuzzy-bubbles.png)
 
