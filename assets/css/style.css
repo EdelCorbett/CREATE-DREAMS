@@ -45,6 +45,7 @@ body{
         background: aqua !important;
     }
 
+
      /* Header styling starts here */
 
     /* logo position */
@@ -199,7 +200,26 @@ h2 {
     
             font-size: 18px;
         }
+        /* Response page */
+        
 
+        .response-message{
+            border: 15px solid;
+            border-color: #ffaafa;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .response-message{
+
+
+
+
+
+        }
         /*Media Queries start here*/
 
         @media (max-width: 780px){
