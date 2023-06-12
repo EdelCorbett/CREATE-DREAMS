@@ -20,7 +20,7 @@ main {
 }
 
 body {
-  font-family: fuzzy bubbles, sans-serif;
+  font-family: "fuzzy bubbles","sans-serif";
   font-weight: 500;
   font-size: 25px;
   background: url('../images/pastel-balloons2.jpg') no-repeat center;
@@ -66,7 +66,7 @@ body {
 
 .menu li {
   display: inline;
-  font-family: Sriracha, sans-serif;
+  font-family: "Sriracha", "sans-serif";
   font-size: 35px;
   padding: 20px;
   color: #8806ce;
@@ -109,9 +109,8 @@ h1 {
 }
 
 /* footer style*/
-​
 footer {
-  background-color: aqua;
+  background: aqua;
   height: 30%;
   width: 100%;
   display: flex;
@@ -127,7 +126,7 @@ footer {
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  max-width: 50rem;
+/*  max-width: 50rem;*/
 }
 
 .social-media>li {
@@ -138,6 +137,9 @@ footer {
   font-size: 160%;
   margin: 0%;
   padding: 5%;
+}
+.social-media li a {
+    color: #8806ce;
 }
 
 .social-media>li :hover {
@@ -221,7 +223,15 @@ h2 {
   align-items: center;
 }
 
-/*Media Queries start here*/
+.contact-message {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Media Queries start here*/ 
+
  @media (max-width: 780px) { 
     .header {
     background-color: aqua;
@@ -240,8 +250,8 @@ h2 {
     font-size: 12px;
   }
 
-    .header {
-    background-color: transparent;
+   .header {
+    background-color: aqua;
     width: 100%;
     height: auto;
     z-index: 3;
@@ -264,7 +274,7 @@ h2 {
     .menu li {
     display: inline;
     font-size: 20px;
-    padding: 20px 30px;
+  /*  padding: 20px 30px;*/
   }
 
     .welcome,
@@ -301,7 +311,7 @@ h2 {
   }
 }
 
-    @media (max-width: 320px) {
+@media (max-width: 400px){
     .navbar {
     width: 100%;
   }
@@ -312,7 +322,7 @@ h2 {
   }
 
     .menu li {
-    padding: 10px;
+    padding-left: 15px;
   }
 
     .welcome,
