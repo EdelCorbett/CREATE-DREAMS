@@ -151,4 +151,8 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 ## Wireframe
 
-- ![Wireframes](documentation/create%20dreams.pdf)
+- ![Wireframes](documentation/create-dream.png)
+
+
+
+
