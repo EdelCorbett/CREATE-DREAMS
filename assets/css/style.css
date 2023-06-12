@@ -23,7 +23,7 @@ main {
 
 body{
 
-    font-family: fuzzy bubbles , sans-serif;
+    font-family: "fuzzy bubbles" , "sans-serif";
     font-weight: 500;
     font-size : 25px;
     background: url('../images/pastel-balloons2.jpg') no-repeat center; 
@@ -73,7 +73,7 @@ body{
 
 .menu li {
     display: inline;
-    font-family: Sriracha, sans-serif;
+    font-family: "Sriracha", "sans-serif";
     font-size: 35px;
     padding:20px;
     color: #8806ce;
