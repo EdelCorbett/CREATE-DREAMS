@@ -73,7 +73,10 @@ Create Dreams is a website for a balloon decorations and party hire business. So
   * Breif introduction to Business.
   * Informs visitors of the products the business has to offer.
   * Invites visitors to view gallery page.
-  * A Background Image of a bunch of pastel ballons is display behind the text which complements the color palette.   
+  * A Background Image of a bunch of pastel ballons is display behind the text which complements the color palette.  
+
+  ![Home page image](documentation/homepage-image.png)
+
 
  ## Gallery Page
 
@@ -81,6 +84,9 @@ Create Dreams is a website for a balloon decorations and party hire business. So
   * Each image has a color border.
   * Each image has a figcaption.
   * It has upto date images of recent work completed by the company.
+
+  ![Gallery page image](documentation/gallerypage-image.png)
+
 
   ## Contact page
 
@@ -90,6 +96,11 @@ Create Dreams is a website for a balloon decorations and party hire business. So
    * It has Input field for Email address which is required to be fill out.
    * It has a message box to be fill out to send enquiries.
    * it has a submit botton that leads to a response page.
+
+   ![Contact page image](documentation/contactpage-image.png)
+   
+
+
 
    ## Response page
 
