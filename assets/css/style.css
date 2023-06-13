@@ -11,7 +11,7 @@
 body {
   display: flex;
   min-height: 100vh;
-  min-width: 500px;
+  min-width: auto;
   flex-direction: column;
   margin: 0;
 }
@@ -264,11 +264,10 @@ h2 {
     justify-content: center;
   }
 
-    .logo {
-    float: none;
+    /*.logo {
     text-align: center;
     margin-bottom: 10px;
-  }
+  }*/
 
     .navbar {
     background-color: aqua;
@@ -325,11 +324,13 @@ h2 {
         background-color: aqua;
     }
    /* .navbar {
-    width: 100%;*/
+    width
+    : 100%;*/
   
 
     .menu {
     margin: auto;
+    padding-left: 0;
   }
 
     .menu li {
