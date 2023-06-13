@@ -1,10 +1,16 @@
 ![Create Dreams logo](assets/images/logo4.png)
 
 Create Dreams is a website for a balloon decorations and party hire business. So potential customers can veiw the decorations the business can create and the items they have available to hire.
+---
+# CONTENTS
+
+* [GOAL](#Goal)
+* [USER STORIES](#User)
+* [FEATURES](#Features)
 
 
 ---
-## Goal
+# Goal
 
 * To display completed projects.
 
@@ -13,7 +19,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 * To show the user of the type work the company does and
  make it easy for user to contact and make enquiries.
 
-## User Storie
+# User Storie
 
 ### As Visitor
 
@@ -37,9 +43,9 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 ---
 
-## Features
+# Features
 
-### Navbar
+## Navbar
 
   ####  Links
 
@@ -59,15 +65,17 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
    ![navbar-small](documentation/navbar-small.jpeg)
 
+## Footer
+
+* The footer is fixed to the bottom of the page.
+* It contains links to the companies facebook,Instagram,twitter and tiktok pages.
+* The links change color when hoverd over.
 
 
 
+ # Home Page
 
----
-
- ## Home Page
-
- ### *Introduction to Company*
+ ## *Introduction to Company*
 
   * Welcomes Visitor to site.
   * Breif introduction to Business.
@@ -78,7 +86,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
   ![Home page image](documentation/homepage-image.png)
 
 
- ## Gallery Page
+ # Gallery Page
 
   * Has a background color.
   * Each image has a color border.
@@ -88,7 +96,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
   ![Gallery page image](documentation/gallerypage-image.png)
 
 
-  ## Contact page
+  # Contact page
 
    *Contact page includes a contact form*
 
@@ -102,7 +110,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 
 
-   ## Response page
+   # Response page
 
    * Visitors are directed to response page after submitting contact form.
    * It displays a thank you message and informs the user that they will be contacted soon.
@@ -111,7 +119,7 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
    ---
 
-   ## Technologies Used
+   # Technologies Used
    - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) 
    - [CSS](https://developer.mozilla.org/en-US/docs/Web/css)
    - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) 
@@ -123,9 +131,9 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 ---
 
-## Design
+# Design
 
-### Logo
+## Logo
 
 * Logo was created using Canva.
 * The design was choosen as identifies the business.
@@ -133,11 +141,11 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 * Logo when click leads back to home page.
 
 
-### Color Pallette
+## Color Pallette
 
-![#ffaafa](https://via.placeholder.com/100/ffaafa/000000?text=+FFAAFA ) `PINK` ![#0ffff](https://via.placeholder.com/100/00ffff/000000?text=+00FFFF)  `AQUA`  ![#8806ce](https://via.placeholder.com/100/8806ce/000000?text=+8806CE) `Purple` 
+![color palette](documentation/colorpalette.png) 
  
- ### Fonts
+ ## Fonts
  
  * Fuzzy bubbles was the main font used on the website as it work well with font in the logo. 
 
@@ -149,10 +157,35 @@ Create Dreams is a website for a balloon decorations and party hire business. So
  ![Sriracha font](documentation/sriracha.png)
 
 
-## Wireframe
+# Wireframe
 
 - ![Wireframes](documentation/create-dream.png)
 
+# Testing
+
+* I have tested the site  on Chorme, Safari anf firefox
+* I have tested the site on different screen sizes to confirm it is responsive.
+* I have tested all link to confirm they are functioning.
+
+
+# Bugs
+
+
+# Deployment
+
+* GitHub pages was used to deploy the site.
+* This was done by: 
+* Firstly go to [GitHub repository](https://edelcorbett.github.io/CREATE-DREAMS/),
+* Then go to the Settings 
+* From the source section drop-down menu, select the **Main** Branch, then click "Save".
+* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found 
+
+# Credits 
 
 
 
+## Image
+* background image was use from Pexels.
+* All Images in gallery were provided by Create Dreams.
