@@ -7,6 +7,17 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 * [GOAL](#Goal)
 * [USER STORIES](#User)
 * [FEATURES](#Features)
+* [HOME PAGE](#Home)
+* [GALLERY PAGE](#Gallery)
+* [CONTACT PAGE](#Contact)
+* [RESPONSE PAGE](#Response)
+* [TECHNOLOGIES USED](#Technologies)
+* [DESIGN](#Design)
+* [WIREFRAME](#Wireframe)
+* [TESTING](#Testing)
+* [BUGS](#Bugs)
+* [DEPLOYMENT](#Deployment)
+* [CREDITS](#Credits)
 
 
 ---
@@ -180,12 +191,12 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 * From the source section drop-down menu, select the **Main** Branch, then click "Save".
 * The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found 
+LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
 
 # Credits 
 
 
 
-## Image
+## Images
 * background image was use from Pexels.
 * All Images in gallery were provided by Create Dreams.
