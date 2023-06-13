@@ -11,6 +11,7 @@
 body {
   display: flex;
   min-height: 100vh;
+  min-width: auto;
   flex-direction: column;
   margin: 0;
 }
@@ -36,15 +37,9 @@ body {
 }
 
 /* contact page background color*/
-.contact-page {
+/*.contact-page {
   background: aqua !important;
-}
-
-.response-page {
-
-  background: url('../images/pastel-balloons2.jpg') no-repeat center !important;
-  background-size: cover;
-}
+}*
 
 /* Header styling starts here */
 
@@ -78,6 +73,10 @@ body {
   color: #8806ce;
 }
 
+.navbar{
+    width: auto;
+}
+
 .navbar>ul :hover {
   color: #ffaafa;
 }
@@ -96,7 +95,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 1em;
+  padding: 10px 1em;
 }
 
 .welcome,
@@ -104,8 +103,6 @@ h1 {
 .teepee {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
-
 }
 
 /* footer style*/
@@ -178,7 +175,12 @@ h2 {
 }
 
 /* Form feildset */
-.form-feildset {
+fieldset{
+    
+
+}
+
+.form-fieldset {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -230,8 +232,7 @@ h2 {
     font-size: 30px;
 }
 
-/*Media Queries start here*/ 
-
+/*Media Queries start here*/
  @media (max-width: 780px) { 
     .header {
     background-color: aqua;
@@ -250,7 +251,7 @@ h2 {
     font-size: 12px;
   }
 
-   .header {
+    .header {
     background-color: aqua;
     width: 100%;
     height: auto;
@@ -268,7 +269,6 @@ h2 {
 
     .navbar {
     background-color: aqua;
-    width: 100%;
   }
 
     .menu li {
@@ -277,11 +277,11 @@ h2 {
   /*  padding: 20px 30px;*/
   }
 
-    .welcome,
+   /* .welcome,
     .balloons,
     .teepee {
     width: 500px;
-  }
+  }*/
 
     h1,
     h2 {
@@ -306,34 +306,42 @@ h2 {
   }
 
     .map,
-    .form-feildset {
-    margin: 20px 20px;
+    .form-fieldset {
+    margin: 30px 30px;
+  }
+
+  .map {
+    width: 100%;
+    height: 250px:
   }
 }
 
 @media (max-width: 400px){
-    .navbar {
-    width: 100%;
+
+    .header {
+        background-color: aqua;
+    }
+   /* .navbar {
+    width: 100%;*/
   }
 
     .menu {
-    padding: 1px !important;
-    align-items: center;
+    margin: auto;
   }
 
     .menu li {
     padding-left: 15px;
   }
 
-    .welcome,
+  /*  .welcome,
     .balloons,
     .teepee {
      width: 250px;
-  }
+  }*/
 
     figure {
-    width: 200px;
-    height: 250px;
+   /* width: 200px;
+    height: 250px;*/
     border: solid 10px aqua;
     margin-bottom: 30px;
   }
@@ -344,10 +352,14 @@ h2 {
     justify-content: space-between;
     margin: 20px;
     font-size: 18px;
-  }
+    width: 100%;
+  }ß
 
+  form{
+    width: 150px;
+  }
     .map,
-    .form-feildset {
+    .form-fieldset {
     padding: 20px 10px;
     margin: 20px 10px;
   }
