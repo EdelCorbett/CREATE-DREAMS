@@ -232,6 +232,21 @@ h2 {
 }
 
 /*Media Queries start here*/
+
+@media (max-width: 1025px){
+
+    .menu{
+        padding: 0;
+    }
+    .menu li{
+    font-size: 25px;
+
+}
+
+}
+
+
+
  @media (max-width: 780px) { 
     .header {
     background-color: aqua;
@@ -319,6 +334,15 @@ h2 {
   .map {
     width: auto;
     height: 250px;
+  }
+
+  .form-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 18px;
+    width: 100%;
   }
 }
 
