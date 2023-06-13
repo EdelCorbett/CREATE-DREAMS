@@ -175,17 +175,17 @@ h2 {
 }
 
 /* Form feildset */
-fieldset{
-    
-
-}
-
 .form-fieldset {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 250px;
   border-color: #8806ce;
+}
+  .map,
+  .form-fieldset {
+  margin: 30px 30px;
+
 }
 
 /* Submit button */
@@ -243,6 +243,10 @@ fieldset{
     flex-direction: column;
     justify-content: center;
  }
+ .map,
+ .form-fieldset {
+ margin: 30px 30px;
+}
 
 }
 
@@ -323,15 +327,17 @@ fieldset{
     }
    /* .navbar {
     width: 100%;*/
-  }
+  
 
     .menu {
     margin: auto;
   }
 
     .menu li {
-    padding-left: 15px;
+    padding-left: 10px;
   }
+
+  
 
   /*  .welcome,
     .balloons,
@@ -349,7 +355,7 @@ fieldset{
     .form-map {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
     margin: 20px;
     font-size: 18px;
     width: 100%;
