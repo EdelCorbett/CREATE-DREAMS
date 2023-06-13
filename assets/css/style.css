@@ -35,10 +35,6 @@ body {
   background: #ffaafa !important;
 }
 
-/* contact page background color*/
-/*.contact-page {
-  background: aqua !important;
-}*
 
 /* Header styling starts here */
 
@@ -122,7 +118,6 @@ footer {
   width: 100%;
   align-items: center;
   justify-content: space-around;
-/*  max-width: 50rem;*/
 }
 
 .social-media>li {
@@ -240,14 +235,9 @@ h2 {
     }
     .menu li{
     font-size: 25px;
-
 }
-
-}
-
-
-
- @media (max-width: 780px) { 
+} 
+@media (max-width: 780px) { 
     .header {
     background-color: aqua;
     width: 100%;
@@ -279,14 +269,9 @@ h2 {
     justify-content: center;
   }
 
-  .logo-image{
-    width: 250px;
+    .logo-image{
+     width: 250px;
   }
-
-    /*.logo {
-    text-align: center;
-    margin-bottom: 10px;
-  }*/
 
     .navbar {
     background-color: aqua;
@@ -295,14 +280,7 @@ h2 {
     .menu li {
     display: inline;
     font-size: 20px;
-  /*  padding: 20px 30px;*/
   }
-
-   /* .welcome,
-    .balloons,
-    .teepee {
-    width: 500px;
-  }*/
 
     h1,
     h2 {
@@ -351,10 +329,8 @@ h2 {
     .header {
         background-color: aqua;
     }
-   /* .navbar {
-    width
-    : 100%;*/
-  .logo-image {
+   
+    .logo-image {
     width: 250px;
   }
 
@@ -366,22 +342,12 @@ h2 {
     .menu li {
     padding-left: 10px;
   }
-
   
-
-  /*  .welcome,
-    .balloons,
-    .teepee {
-     width: 250px;
-  }*/
-
     figure {
-   /* width: 200px;
-    height: 250px;*/
     border: solid 10px aqua;
     margin-bottom: 30px;
   }
-
+    
     .form-map {
     display: flex;
     flex-wrap: wrap;
@@ -391,7 +357,7 @@ h2 {
     width: 100%;
   }
 
-  form{
+    form{
     width: 150px;
   }
     .map,
