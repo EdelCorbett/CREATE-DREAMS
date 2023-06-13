@@ -264,6 +264,10 @@ h2 {
     justify-content: center;
   }
 
+  .logo-image{
+    width: 200px;
+  }
+
     /*.logo {
     text-align: center;
     margin-bottom: 10px;
@@ -326,7 +330,9 @@ h2 {
    /* .navbar {
     width
     : 100%;*/
-  
+  .logo-image {
+    width: 200px;
+  }
 
     .menu {
     margin: auto;
