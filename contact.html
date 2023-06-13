@@ -46,13 +46,16 @@
     <h2>We Service all areas for Cork City</h2> 
     <div class="form-map">
          <form action="response.html"method="GET" class="contact-form">
-        <fieldset class="form-fieldset">
+        <fieldset class="form-fieldset" id="form-field">
         <legend>Contact Us</legend>
-        <input type="text" name="name" placeholder="Name"required>
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
         <br>
-        <input type="email" name="email" placeholder="Email" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
         <br>
-        <textarea cols="30"rows="10">Message</textarea>
+        <label for="message-box"></label>
+        <textarea id="message-box" cols="30"rows="10">Message</textarea>
         <br>
         <button type="submit"class="submit-button">Submit</button>
     </fieldset>

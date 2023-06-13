@@ -85,7 +85,6 @@ h1 {
 .welcome,
 .balloons,
 .teepee {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,7 +183,7 @@ h2 {
 
 /* Submit button */
 .submit-button {
-  background-color: #ffaafa;
+  background-color: aqua;
   border-color: #8806ce;
   color: #8806ce;
   border-radius: 50%;
