@@ -172,34 +172,59 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 # Wireframe
 
-- ![Wireframes](documentation/create-dream.png)
-
+- [Wireframes](documentation/create-dream.png)
+---
 # Testing
 
 * I have tested the site  on Chorme, Safari anf firefox
 * I have tested the site on different screen sizes to confirm it is responsive.
 * I have tested all link to confirm they are functioning.
 
+## Validator Testing
+
+
+
+## Lighthouse Testing
+
+### DESKTOP
+* [Home page](documentation/light-testing/lh-hp-desktop.png)
+* [Gallery page](documentation/light-testing/lh-gp-desktop.png)
+* [Contact page](documentation/light-testing/lh-cp-desktop.png)
+* [Response page](documentation/light-testing/lh-rp-desktop.png)
+
+### MOBILE
+
+* [Home Page](documentation/light-testing/lh-hp-mobile.png)
+* [Gallery Page](documentation/light-testing/lh-gp-mobile.png)
+* [Contact Page](documentation/light-testing/lh-cp-mobile.png)
+* [Response Page](documentation/light-testing/lh-rp-mobile.png)
+
 
 # Bugs
+
+* There is an Error still showing but this  error is due to google map used on the contact page, i have test on multiple devices and every thing work as it should. 
 
 
 # Deployment
 
 * GitHub pages was used to deploy the site.
 * This was done by: 
-* Firstly go to [GitHub repository](https://edelcorbett.github.io/CREATE-DREAMS/),
-* Then go to the Settings 
-* From the source section drop-down menu, select the **Main** Branch, then click "Save".
-* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  1. Sign in to GitHud account
+  2. Go to [GitHub repository](https://edelcorbett.github.io/CREATE-DREAMS/),
+  3. Go to the Settings 
+  4. Click "pages" on the navgation on the left hand side .
+   From the source section drop-down menu, select the **Main** Branch, then click "Save".
+* The page will be automatically refreshed detailed ribbon display to indicate the successful deployment.
 
 LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
 
 # Credits 
 
-* Css tricks 
-* kevin
-
+* [CSS TRICKS](https://css-tricks.com/)
+* Kevin Powell youtube channel.
+* [Coolors](https://coolors.co/) was used to create color palette.
+* [Canva](https://www.canva.com/) was used to create logo.
+* [Pexels](https://www.pexels.com/) was used for background image.
 
 
 ## Images
