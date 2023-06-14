@@ -2,6 +2,8 @@
 
 Create Dreams is a website for a balloon decorations and party hire business. So potential customers can veiw the decorations the business can create and the items they have available to hire.
 ---
+![Mockups](documentation/mockups.png)
+---
 # CONTENTS
 
 * [GOAL](#Goal)
@@ -194,6 +196,9 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
 
 # Credits 
+
+* Css tricks 
+* kevin
 
 
 
