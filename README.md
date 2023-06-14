@@ -1,8 +1,8 @@
 ![Create Dreams logo](assets/images/logo4.png)
 
-Create Dreams is a website for a balloon decorations and party hire business. So potential customers can veiw the decorations the business can create and the items they have available to hire.
+Create Dreams is a website for a balloon decorations and party hire business. So that potential customers can veiw the decorations the business can create and the items they have available to hire.
 ---
-![Mockups](documentation/mockups.png)
+![Mockups](documentation/mock-up.png)
 ---
 # CONTENTS
 
@@ -83,10 +83,9 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 * The footer is fixed to the bottom of the page.
 * It contains links to the companies facebook,Instagram,twitter and tiktok pages.
 * The links change color when hoverd over.
+![Footer](documentation/footer-image.png)
 
-
-
- # Home Page
+# Home Page
 
  ## *Introduction to Company*
 
@@ -209,12 +208,14 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
 * GitHub pages was used to deploy the site.
 * This was done by: 
-  1. Sign in to GitHud account
+  1. Sign in to GitHub account
   2. Go to [GitHub repository](https://edelcorbett.github.io/CREATE-DREAMS/),
-  3. Go to the Settings 
-  4. Click "pages" on the navgation on the left hand side .
-   From the source section drop-down menu, select the **Main** Branch, then click "Save".
-* The page will be automatically refreshed detailed ribbon display to indicate the successful deployment.
+  3. Go to the **Settings** 
+  4. Click **Pages** on the navgation on the left hand side .
+  5. In the source section select the **Main** Branch
+  6. Select the root folder
+  6. Then click "Save".
+* The site is deployed and is accessable by the URL at top of page
 
 LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
 
@@ -225,8 +226,17 @@ LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
 * [Coolors](https://coolors.co/) was used to create color palette.
 * [Canva](https://www.canva.com/) was used to create logo.
 * [Pexels](https://www.pexels.com/) was used for background image.
+* [Flexbox forggy](https://flexboxfroggy.com/) to learn flexbox.
+* [Stack overflow](https://stackoverflow.com/) for information.
+* [W3Schools](https://www.w3schools.com/) was used as reference
+* [Techsini](http://techsini.com/) was used for resposive mock-up 
+
+
 
 
 ## Images
 * background image was use from Pexels.
 * All Images in gallery were provided by Create Dreams.
+
+## Acknowledgements
+*
