@@ -227,6 +227,9 @@ Create Dreams is a website for balloon decorations and party hire business. So t
 
 * There is an Error still showing but this error is due to Google map used on the contact page, I have tested it on multiple devices and everything work as it should. 
 
+## Mistakes
+* During the initial stages of the project I didnt commit or have clear commit messages as the project progressed I made improvements to this. 
+
 
 # Deployment
 
