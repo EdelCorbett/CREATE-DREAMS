@@ -145,9 +145,7 @@ Create Dreams is a website for balloon decorations and party hire business. So t
    - [Google maps](https://www.google.com/maps/)
    - [Font Awesome](https://fontawesome.com/)
 
-   ## Languages
-
-   * HTML and CSS where the Languages used.
+  
 
 ---
 
