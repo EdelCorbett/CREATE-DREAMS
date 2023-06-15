@@ -117,12 +117,12 @@ Create Dreams is a website for a balloon decorations and party hire business. So
    * It has a message box to be fill out to send enquiries.
    * it has a submit botton that leads to a response page.
 
+   *Contact page includes a Map*
+   * The Map indicates the area which the business supplies. 
+
    ![Contact page image](documentation/contactpage-image.png)
    
-
-
-
-   # Response page
+  # Response page
 
    * Visitors are directed to response page after submitting contact form.
    * It displays a thank you message and informs the user that they will be contacted soon.
@@ -168,21 +168,27 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 
  ![Sriracha font](documentation/sriracha.png)
 
+---
+# [Wireframes](documentation/create-dream.png)
+* Wireframes were created in Balsamiq 
+* It includes a desktop and a mobile  wireframe.
 
-# Wireframe
-
-- [Wireframes](documentation/create-dream.png)
 ---
 # Testing
 
-* I have tested the site  on Chorme, Safari anf firefox
+* I have tested the site  on Chorme, Safari and firefox
 * I have tested the site on different screen sizes to confirm it is responsive.
 * I have tested all link to confirm they are functioning.
-
+---
 ## Validator Testing
+### [W3C](https://validator.w3.org/) was used for validation of Html
+* [Home page html](documentation/w3cindex.html.png) 
+* [Gallery page html](documentation/w3cgallery.html.png)
+* [Contact page html](documentation/w3ccontact.html.png)
+ * [Response page html](documentation/w3cresponse.html.png) 
 
-
-
+ ### [Jigsaw](https://jigsaw.w3.org/css-validator/) was used for validation of CSS
+---
 ## Lighthouse Testing
 
 ### DESKTOP
@@ -197,6 +203,20 @@ Create Dreams is a website for a balloon decorations and party hire business. So
 * [Gallery Page](documentation/light-testing/lh-gp-mobile.png)
 * [Contact Page](documentation/light-testing/lh-cp-mobile.png)
 * [Response Page](documentation/light-testing/lh-rp-mobile.png)
+---
+# Manual Testing
+| Feature | Expect | Action | Result |Tested |
+|---|---|---|---|---|
+| Header ||||
+| Logo | When clicked return to home page. | Click logo on header | Return to home page when clicked.| Pass|
+| Navbar Home Button| When clicked return to home page. | Click Home button in header |  Home page opened when clicked. | Pass |
+| Navbar Gallery Button| When clicked opens to gallery page. | Click gallery button in header | Gallery page opened | Pass |
+| Navbar Contact Button | When clicked open contact  page. | Click contact button in header | Contact  page opened when clicked.| Pass |
+| Form Submit Button | When clicked contact form is submited and a response page is opened.  | Click Submit Button|Contact form is submited. | Pass |
+| Form name input | Name required | Enter Name | Name required to be able to submit form .| Pass |
+| Form Email input| Email Required | Enter Email address | Email address required to be able to submit form. | Pass |
+| Responsen Page| Displays after submit button is clicked and redirects to home page after 10 seconds | Click Submit button | Returns to home page when after 10 seconds.| Pass |
+| Social media Icons | When clicked opens conecting website in new tab . | Click icon in footer | opened new tab to the relevant site. | Pass |
 
 
 # Bugs
@@ -222,7 +242,7 @@ LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
 # Credits 
 
 * [CSS TRICKS](https://css-tricks.com/)
-* Kevin Powell youtube channel.
+* Kevin Powell youtube channel for css tutorials.
 * [Coolors](https://coolors.co/) was used to create color palette.
 * [Canva](https://www.canva.com/) was used to create logo.
 * [Pexels](https://www.pexels.com/) was used for background image.
@@ -235,7 +255,7 @@ LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
 
 
 ## Images
-* background image was use from Pexels.
+* Background image was use from Pexels.
 * All Images in gallery were provided by Create Dreams.
 
 ## Acknowledgements
