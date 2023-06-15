@@ -19,6 +19,7 @@ Create Dreams is a website for balloon decorations and party hire business. So t
 * [TESTING](#Testing)
 * [BUGS](#Bugs)
 * [DEPLOYMENT](#Deployment)
+* [LIVE LINK FOR SITE](#LIVE)
 * [CREDITS](#Credits)
 
 
@@ -247,7 +248,7 @@ Create Dreams is a website for balloon decorations and party hire business. So t
   6. Then click "Save".
 * The site is deployed and is accessible by the URL at the top of the page
 
-LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
+# LIVE LINK  [CREATE DREAMS](https://edelcorbett.github.io/CREATE-DREAMS/)
 
 # Future Features
 
