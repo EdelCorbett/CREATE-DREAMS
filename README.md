@@ -19,7 +19,7 @@ Create Dreams is a website for balloon decorations and party hire business. So t
 * [TESTING](#Testing)
 * [BUGS](#Bugs)
 * [DEPLOYMENT](#Deployment)
-* [LIVE LINK FOR SITE](#LIVE)
+* [LIVE LINK FOR SITE](#LIVELINK)
 * [CREDITS](#Credits)
 
 
