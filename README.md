@@ -13,7 +13,7 @@ Create Dreams is a website for balloon decorations and party hire business. So t
 * [GALLERY PAGE](#Gallery)
 * [CONTACT PAGE](#Contact)
 * [RESPONSE PAGE](#Response)
-* [TECHNOLOGIES USED](#Technologies)
+* [TECHNOLOGIES and LANUAGES USED](#Technologies)
 * [DESIGN](#Design)
 * [WIREFRAME](#Wireframe)
 * [TESTING](#Testing)
@@ -83,6 +83,7 @@ Create Dreams is a website for balloon decorations and party hire business. So t
 * The footer is fixed to the bottom of the page.
 * It contains links to the company's Facebook, Instagram, Twitter and tiktok pages.
 * The links change colour when hovering over them.
+* Font awesome was used to create icons
 ![Footer](documentation/footer-image.png)
 
 # Home Page
@@ -143,6 +144,10 @@ Create Dreams is a website for balloon decorations and party hire business. So t
    - [Canva](https://www.canva.com/)
    - [Google maps](https://www.google.com/maps/)
    - [Font Awesome](https://fontawesome.com/)
+
+   ## Languages
+
+   * HTML and CSS where the Languages used.
 
 ---
 
